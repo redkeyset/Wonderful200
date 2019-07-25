@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical">
+    <!--菜单发起群聊按钮-->
+    <Button
+        android:id="@+id/btnGrop"
+        style="@style/style_weimenu"
+        android:drawableLeft="@drawable/icon_group"
+        android:text="@string/text_group" />
+    <!--菜单添加好友按钮-->
+    <Button
+        android:id="@+id/btnAdd"
+        style="@style/style_weimenu"
+        android:drawableLeft="@drawable/icon_add"
+        android:text="@string/text_add" />
+    <!--菜单扫一扫按钮-->
+    <Button
+        android:id="@+id/btnScan"
+        style="@style/style_weimenu"
+        android:drawableLeft="@drawable/icon_scan"
+        android:text="@string/text_sweep" />
+    <!--菜单收付款按钮-->
+    <Button
+        android:id="@+id/btnCard"
+        style="@style/style_weimenu"
+        android:drawableLeft="@drawable/icon_card"
+        android:text="@string/text_collect" />
+    <!--菜单帮助与反馈按钮-->
+    <Button
+        android:id="@+id/btnHelp"
+        style="@style/style_weimenu"
+        android:drawableLeft="@drawable/icon_help"
+        android:text="@string/text_help" />
+
+</LinearLayout>
