@@ -1,4 +1,4 @@
-package com.ecs.androidwonderful200.menudialog.AnnouncementDrawer
+package com.ecs.androidwonderful200.menudialog.AnnouncementDrawer02
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

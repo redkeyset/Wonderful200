@@ -8,16 +8,26 @@
 
     <Button
         android:id="@+id/btnWeiMenu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        style="@style/style_main_item"
         android:text="Wei Menu" />
 
     <Button
         android:id="@+id/btnAnnouncementDrawer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        style="@style/style_main_item"
         android:text="Announcement Drawer" />
+
+    <Button
+        android:id="@+id/btnQQMenu"
+        style="@style/style_main_item"
+        android:text="QQ Menu" />
+
+    <Button
+        android:id="@+id/btnSatelListMenu"
+        style="@style/style_main_item"
+        android:text="Satel List Menu" />
+    <Button
+        android:id="@+id/btnAnimDialog"
+        style="@style/style_main_item"
+        android:text="Anim Dialog" />
 
 </LinearLayout>

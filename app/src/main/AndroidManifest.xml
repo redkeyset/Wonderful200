@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".menudialog.weimenu01.WeiMenu01Activity" />
-        <activity android:name=".menudialog.AnnouncementDrawer.AnnouncementDrawer02Activity"></activity>
+        <activity android:name=".menudialog.AnnouncementDrawer02.AnnouncementDrawer02Activity" />
+        <activity android:name=".menudialog.QQMenu03.QQMenu03Activity" />
+        <activity android:name=".menudialog.SatellistMenu04.SatellistMenu04Activity" />
+        <activity android:name=".menudialog.AnimDialog05.AnimDialog05Activity"></activity>
     </application>
 
 </manifest>

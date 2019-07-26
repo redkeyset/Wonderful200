@@ -11,7 +11,7 @@ import android.widget.HorizontalScrollView
 import android.widget.LinearLayout
 
 /**
- *
+ *手机QQ 侧滑菜单
  */
 class QQLeftMenu(context: Context, attrs: AttributeSet) : HorizontalScrollView(context, attrs) {
     private var mScrollView: LinearLayout? = null            //定义横向滚动条布局
@@ -36,6 +36,8 @@ class QQLeftMenu(context: Context, attrs: AttributeSet) : HorizontalScrollView(c
         mMenuRightPadding = TypedValue.applyDimension(
                 TypedValue.COMPLEX_UNIT_DIP, 50f,
                 context.resources.displayMetrics).toInt()
+        //隐藏默认显示的横向滚动条
+        this.isHorizontalScrollBarEnabled = false
 
     }
 
