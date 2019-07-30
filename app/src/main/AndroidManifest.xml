@@ -22,7 +22,8 @@
         <activity android:name=".menudialog.SatellistMenu04.SatellistMenu04Activity" />
         <activity android:name=".menudialog.AnimDialog05.AnimDialog05Activity" />
         <activity android:name=".menudialog.MessageNotifcation06.MessageNotifcation06Activity" />
-        <activity android:name=".menudialog.MessageNotifcation06.MessageActivity"></activity>
+        <activity android:name=".menudialog.MessageNotifcation06.MessageActivity" />
+        <activity android:name=".menudialog.QQDialog07.QQDialog07Activity"></activity>
     </application>
 
 </manifest>

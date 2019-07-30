@@ -22,4 +22,9 @@
     <string name="text_title2">您确定要退出58同城吗？</string>
     <string name="text_btn_determine">确定</string>
     <string name="text_btn_cancel">取消</string>
+
+    <string name="text_title_dialog">再连续登陆4天，就可变身QQ达人。退出\nQQ可能会使你现有记录归零，确定退\n出？</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_exit">确定退出</string>
+    <string name="text_exit_number">退出当前账号</string>
 </resources>

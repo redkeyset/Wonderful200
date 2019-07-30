@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="第1章"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnWeiMenu"
+        style="@style/style_main_item"
+        android:text="Wei Menu" />
+
+    <Button
+        android:id="@+id/btnAnnouncementDrawer"
+        style="@style/style_main_item"
+        android:text="Announcement Drawer" />
+
+    <Button
+        android:id="@+id/btnQQMenu"
+        style="@style/style_main_item"
+        android:text="QQ Menu" />
+
+    <Button
+        android:id="@+id/btnSatelListMenu"
+        style="@style/style_main_item"
+        android:text="Satel List Menu" />
+
+    <Button
+        android:id="@+id/btnAnimDialog"
+        style="@style/style_main_item"
+        android:text="Anim Dialog" />
+
+    <Button
+        android:id="@+id/btnMessageNotifcation"
+        style="@style/style_main_item"
+        android:text="Message Notifcation" />
+
+    <Button
+        android:id="@+id/btnQQDialog"
+        style="@style/style_main_item"
+        android:text="QQ Dialog" />
+
+</LinearLayout>
