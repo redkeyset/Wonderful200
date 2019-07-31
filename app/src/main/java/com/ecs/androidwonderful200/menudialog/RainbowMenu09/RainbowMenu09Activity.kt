@@ -9,7 +9,9 @@ import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_rainbow_menu09.*
 import org.jetbrains.anko.toast
 
-
+/**
+ * 旋转彩虹Menu
+ */
 class RainbowMenu09Activity : AppCompatActivity(), View.OnClickListener {
     //二级与三级菜单布局
     private var l2: RelativeLayout? = null
