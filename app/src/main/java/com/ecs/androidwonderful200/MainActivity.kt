@@ -7,9 +7,11 @@ import android.widget.Button
 import android.widget.LinearLayout
 import com.ecs.androidwonderful200.menudialog.AnimDialog05.AnimDialog05Activity
 import com.ecs.androidwonderful200.menudialog.AnnouncementDrawer02.AnnouncementDrawer02Activity
+import com.ecs.androidwonderful200.menudialog.CircleMenu08.CircleMenu08Activity
 import com.ecs.androidwonderful200.menudialog.MessageNotifcation06.MessageNotifcation06Activity
 import com.ecs.androidwonderful200.menudialog.QQDialog07.QQDialog07Activity
 import com.ecs.androidwonderful200.menudialog.QQMenu03.QQMenu03Activity
+import com.ecs.androidwonderful200.menudialog.RainbowMenu09.RainbowMenu09Activity
 import com.ecs.androidwonderful200.menudialog.SatellistMenu04.SatellistMenu04Activity
 import com.ecs.androidwonderful200.menudialog.weimenu01.WeiMenu01Activity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -52,6 +54,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             btnAnimDialog -> startActivity(intentFor<AnimDialog05Activity>())
             btnMessageNotifcation -> startActivity(intentFor<MessageNotifcation06Activity>())
             btnQQDialog -> startActivity(intentFor<QQDialog07Activity>())
+            btnCircleMenu -> startActivity(intentFor<CircleMenu08Activity>())
+            btnRainbowMenu -> startActivity(intentFor<RainbowMenu09Activity>())
         }
     }
 }

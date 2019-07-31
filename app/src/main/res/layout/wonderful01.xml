@@ -47,5 +47,13 @@
         android:id="@+id/btnQQDialog"
         style="@style/style_main_item"
         android:text="QQ Dialog" />
+    <Button
+        android:id="@+id/btnCircleMenu"
+        style="@style/style_main_item"
+        android:text="Circle Menu" />
+    <Button
+        android:id="@+id/btnRainbowMenu"
+        style="@style/style_main_item"
+        android:text="Rainbow Menu" />
 
 </LinearLayout>

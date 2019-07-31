@@ -23,7 +23,9 @@
         <activity android:name=".menudialog.AnimDialog05.AnimDialog05Activity" />
         <activity android:name=".menudialog.MessageNotifcation06.MessageNotifcation06Activity" />
         <activity android:name=".menudialog.MessageNotifcation06.MessageActivity" />
-        <activity android:name=".menudialog.QQDialog07.QQDialog07Activity"></activity>
+        <activity android:name=".menudialog.QQDialog07.QQDialog07Activity" />
+        <activity android:name=".menudialog.CircleMenu08.CircleMenu08Activity" />
+        <activity android:name=".menudialog.RainbowMenu09.RainbowMenu09Activity"></activity>
     </application>
 
 </manifest>
