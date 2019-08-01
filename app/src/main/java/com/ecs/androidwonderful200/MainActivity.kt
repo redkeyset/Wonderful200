@@ -13,6 +13,7 @@ import com.ecs.androidwonderful200.menudialog.QQDialog07.QQDialog07Activity
 import com.ecs.androidwonderful200.menudialog.QQMenu03.QQMenu03Activity
 import com.ecs.androidwonderful200.menudialog.RainbowMenu09.RainbowMenu09Activity
 import com.ecs.androidwonderful200.menudialog.SatellistMenu04.SatellistMenu04Activity
+import com.ecs.androidwonderful200.menudialog.SlideDeleteMenu10.SlideDeleteMenu10Activity
 import com.ecs.androidwonderful200.menudialog.weimenu01.WeiMenu01Activity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.wonderful01.*
@@ -56,6 +57,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             btnQQDialog -> startActivity(intentFor<QQDialog07Activity>())
             btnCircleMenu -> startActivity(intentFor<CircleMenu08Activity>())
             btnRainbowMenu -> startActivity(intentFor<RainbowMenu09Activity>())
+            btnSlideDeleteMenu -> startActivity(intentFor<SlideDeleteMenu10Activity>())
         }
     }
 }

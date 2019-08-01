@@ -27,4 +27,29 @@
     <string name="text_cancel">取消</string>
     <string name="text_exit">确定退出</string>
     <string name="text_exit_number">退出当前账号</string>
+
+    <string name="slide_delete_name1">赵...</string>
+    <string name="slide_delete_name2">孙...</string>
+    <string name="slide_delete_name3">李...</string>
+    <string name="slide_delete_name4">周...</string>
+    <string name="slide_delete_name5">吴...</string>
+    <string name="slide_delete_name6">郑...</string>
+    <string name="slide_delete_name7">王...</string>
+    <string name="slide_delete_name8">冯...</string>
+    <string name="slide_delete_name9">陈...</string>
+    <string name="slide_delete_name10">卫...</string>
+    <string name="slide_delete_name11">沈...</string>
+
+    <!--信息-->
+    <string name="slide_delete_1">世上没有绝望的处境，只有对处境绝望的人。</string>
+    <string name="slide_delete_2">大多数人想要改造这个世界，但却罕有人想改造自己。 </string>
+    <string name="slide_delete_3">积极的人在每一次忧患中都看到一个机会， 而消极的人则在每个机会都看到某种忧患。</string>
+    <string name="slide_delete_4">莫找借口失败，只找理由成功。</string>
+    <string name="slide_delete_5">世上没有绝望的处境，只有对处境绝望的人。  </string>
+    <string name="slide_delete_6">当你感到悲哀痛苦时，最好是去学些什么东西。学习会使你永远立于不败之地。</string>
+    <string name="slide_delete_7">世界上那些最容易的事情中，拖延时间最不费力。 </string>
+    <string name="slide_delete_8">人之所以能，是相信能。</string>
+    <string name="slide_delete_9">一个有信念者所开发出的力量，大于99个只有兴趣者。 </string>
+    <string name="slide_delete_10">每一发奋努力的背后，必有加倍的赏赐。</string>
+    <string name="slide_delete_11">人生伟业的建立 ，不在能知，乃在能行。</string>
 </resources>
