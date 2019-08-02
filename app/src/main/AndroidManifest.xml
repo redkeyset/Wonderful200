@@ -26,7 +26,8 @@
         <activity android:name=".menudialog.QQDialog07.QQDialog07Activity" />
         <activity android:name=".menudialog.CircleMenu08.CircleMenu08Activity" />
         <activity android:name=".menudialog.RainbowMenu09.RainbowMenu09Activity" />
-        <activity android:name=".menudialog.SlideDeleteMenu10.SlideDeleteMenu10Activity"></activity>
+        <activity android:name=".menudialog.SlideDeleteMenu10.SlideDeleteMenu10Activity" />
+        <activity android:name=".menudialog.CustomToast11.CustomToast11Activity"></activity>
     </application>
 
 </manifest>

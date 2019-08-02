@@ -8,6 +8,7 @@ import android.widget.LinearLayout
 import com.ecs.androidwonderful200.menudialog.AnimDialog05.AnimDialog05Activity
 import com.ecs.androidwonderful200.menudialog.AnnouncementDrawer02.AnnouncementDrawer02Activity
 import com.ecs.androidwonderful200.menudialog.CircleMenu08.CircleMenu08Activity
+import com.ecs.androidwonderful200.menudialog.CustomToast11.CustomToast11Activity
 import com.ecs.androidwonderful200.menudialog.MessageNotifcation06.MessageNotifcation06Activity
 import com.ecs.androidwonderful200.menudialog.QQDialog07.QQDialog07Activity
 import com.ecs.androidwonderful200.menudialog.QQMenu03.QQMenu03Activity
@@ -58,6 +59,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             btnCircleMenu -> startActivity(intentFor<CircleMenu08Activity>())
             btnRainbowMenu -> startActivity(intentFor<RainbowMenu09Activity>())
             btnSlideDeleteMenu -> startActivity(intentFor<SlideDeleteMenu10Activity>())
+            btnCustomToast -> startActivity(intentFor<CustomToast11Activity>())
         }
     }
 }

@@ -60,5 +60,9 @@
         android:id="@+id/btnSlideDeleteMenu"
         style="@style/style_main_item"
         android:text="SlideDelete Menu" />
+    <Button
+        android:id="@+id/btnCustomToast"
+        style="@style/style_main_item"
+        android:text="Custom Toast" />
 
 </LinearLayout>
