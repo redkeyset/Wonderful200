@@ -27,6 +27,11 @@
         style="@style/style_main_item"
         android:text="AZSort" />
 
+    <Button
+        android:id="@+id/btnImageFDScrollView"
+        style="@style/style_main_item"
+        android:text="ImageFDScrollView" />
+
     <View
         android:layout_width="1dp"
         android:layout_height="30dp"/>

@@ -31,7 +31,8 @@
         <activity android:name=".menudialog.DownMenu12.DownMenu12Activity" />
         <activity android:name=".AndroidControls.ProgressBar013.ProgressBar013Activity" />
         <activity android:name=".AndroidControls.ZFPlay014.ZFPlay014Activity" />
-        <activity android:name=".AndroidControls.AZSort015.AZSort015Activity"></activity>
+        <activity android:name=".AndroidControls.AZSort015.AZSort015Activity" />
+        <activity android:name=".AndroidControls.ImageFDScrollView016.ImageFDScrollViewActivity"></activity>
     </application>
 
 </manifest>

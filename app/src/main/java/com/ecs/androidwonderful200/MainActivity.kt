@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
 import com.ecs.androidwonderful200.AndroidControls.AZSort015.AZSort015Activity
+import com.ecs.androidwonderful200.AndroidControls.ImageFDScrollView016.ImageFDScrollViewActivity
 import com.ecs.androidwonderful200.AndroidControls.ProgressBar013.ProgressBar013Activity
 import com.ecs.androidwonderful200.AndroidControls.ZFPlay014.ZFPlay014Activity
 import com.ecs.androidwonderful200.menudialog.AnimDialog05.AnimDialog05Activity
@@ -72,6 +73,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             btnProgressBar -> startActivity(intentFor<ProgressBar013Activity>())
             btnZFPlay -> startActivity(intentFor<ZFPlay014Activity>())
             btnAZSort -> startActivity(intentFor<AZSort015Activity>())
+            btnImageFDScrollView -> startActivity(intentFor<ImageFDScrollViewActivity>())
         }
     }
 }
