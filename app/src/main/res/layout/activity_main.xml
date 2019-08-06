@@ -18,5 +18,8 @@
             android:text="AAA" />
 
         <include layout="@layout/wonderful01" />
+
+        <include layout="@layout/wonderful02" />
+
     </LinearLayout>
 </ScrollView>

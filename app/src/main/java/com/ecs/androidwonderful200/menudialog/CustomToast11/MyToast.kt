@@ -18,7 +18,6 @@ import com.ecs.androidwonderful200.R
  */
 
 class MyToast(context: Context) {
-
     val toast: Toast//Toast对象
     val view: View//Toast的UI效果
     val icon: ImageView//图标

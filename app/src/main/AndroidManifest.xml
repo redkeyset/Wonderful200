@@ -27,7 +27,11 @@
         <activity android:name=".menudialog.CircleMenu08.CircleMenu08Activity" />
         <activity android:name=".menudialog.RainbowMenu09.RainbowMenu09Activity" />
         <activity android:name=".menudialog.SlideDeleteMenu10.SlideDeleteMenu10Activity" />
-        <activity android:name=".menudialog.CustomToast11.CustomToast11Activity"></activity>
+        <activity android:name=".menudialog.CustomToast11.CustomToast11Activity" />
+        <activity android:name=".menudialog.DownMenu12.DownMenu12Activity" />
+        <activity android:name=".AndroidControls.ProgressBar013.ProgressBar013Activity" />
+        <activity android:name=".AndroidControls.ZFPlay014.ZFPlay014Activity" />
+        <activity android:name=".AndroidControls.AZSort015.AZSort015Activity"></activity>
     </application>
 
 </manifest>

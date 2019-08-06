@@ -5,10 +5,14 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
+import com.ecs.androidwonderful200.AndroidControls.AZSort015.AZSort015Activity
+import com.ecs.androidwonderful200.AndroidControls.ProgressBar013.ProgressBar013Activity
+import com.ecs.androidwonderful200.AndroidControls.ZFPlay014.ZFPlay014Activity
 import com.ecs.androidwonderful200.menudialog.AnimDialog05.AnimDialog05Activity
 import com.ecs.androidwonderful200.menudialog.AnnouncementDrawer02.AnnouncementDrawer02Activity
 import com.ecs.androidwonderful200.menudialog.CircleMenu08.CircleMenu08Activity
 import com.ecs.androidwonderful200.menudialog.CustomToast11.CustomToast11Activity
+import com.ecs.androidwonderful200.menudialog.DownMenu12.DownMenu12Activity
 import com.ecs.androidwonderful200.menudialog.MessageNotifcation06.MessageNotifcation06Activity
 import com.ecs.androidwonderful200.menudialog.QQDialog07.QQDialog07Activity
 import com.ecs.androidwonderful200.menudialog.QQMenu03.QQMenu03Activity
@@ -18,6 +22,7 @@ import com.ecs.androidwonderful200.menudialog.SlideDeleteMenu10.SlideDeleteMenu1
 import com.ecs.androidwonderful200.menudialog.weimenu01.WeiMenu01Activity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.wonderful01.*
+import kotlinx.android.synthetic.main.wonderful02.*
 import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.toast
 
@@ -49,6 +54,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v) {
             btnTest -> toast("测试点击效果！")
+            // 第1章
             btnWeiMenu -> startActivity(intentFor<WeiMenu01Activity>())
             btnAnnouncementDrawer -> startActivity(intentFor<AnnouncementDrawer02Activity>())
             btnQQMenu -> startActivity(intentFor<QQMenu03Activity>())
@@ -60,6 +66,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             btnRainbowMenu -> startActivity(intentFor<RainbowMenu09Activity>())
             btnSlideDeleteMenu -> startActivity(intentFor<SlideDeleteMenu10Activity>())
             btnCustomToast -> startActivity(intentFor<CustomToast11Activity>())
+            btnDownMenu -> startActivity(intentFor<DownMenu12Activity>())
+
+            // 第2章
+            btnProgressBar -> startActivity(intentFor<ProgressBar013Activity>())
+            btnZFPlay -> startActivity(intentFor<ZFPlay014Activity>())
+            btnAZSort -> startActivity(intentFor<AZSort015Activity>())
         }
     }
 }

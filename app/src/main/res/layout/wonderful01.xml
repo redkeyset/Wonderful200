@@ -64,5 +64,9 @@
         android:id="@+id/btnCustomToast"
         style="@style/style_main_item"
         android:text="Custom Toast" />
+    <Button
+        android:id="@+id/btnDownMenu"
+        style="@style/style_main_item"
+        android:text="Down Menu" />
 
 </LinearLayout>
