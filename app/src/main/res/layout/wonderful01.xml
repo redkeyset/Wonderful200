@@ -9,64 +9,64 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:text="第1章"
+        android:text="第1章 菜单与对话框"
         android:gravity="center"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/btnWeiMenu"
         style="@style/style_main_item"
-        android:text="Wei Menu" />
+        android:text="PopupWindow弹出菜单" />
 
     <Button
         android:id="@+id/btnAnnouncementDrawer"
         style="@style/style_main_item"
-        android:text="Announcement Drawer" />
+        android:text="抽屉式公告栏" />
 
     <Button
         android:id="@+id/btnQQMenu"
         style="@style/style_main_item"
-        android:text="QQ Menu" />
+        android:text="QQ 侧滑菜单" />
 
     <Button
         android:id="@+id/btnSatelListMenu"
         style="@style/style_main_item"
-        android:text="Satel List Menu" />
+        android:text="星型旋转菜单" />
 
     <Button
         android:id="@+id/btnAnimDialog"
         style="@style/style_main_item"
-        android:text="Anim Dialog" />
+        android:text="Dialog退出提示框" />
 
     <Button
         android:id="@+id/btnMessageNotifcation"
         style="@style/style_main_item"
-        android:text="Message Notifcation" />
+        android:text="Notifcation 消息通知" />
 
     <Button
         android:id="@+id/btnQQDialog"
         style="@style/style_main_item"
-        android:text="QQ Dialog" />
+        android:text="Dialog 退出账户" />
     <Button
         android:id="@+id/btnCircleMenu"
         style="@style/style_main_item"
-        android:text="Circle Menu" />
+        android:text="圆形转盘菜单" />
     <Button
         android:id="@+id/btnRainbowMenu"
         style="@style/style_main_item"
-        android:text="Rainbow Menu" />
+        android:text="彩虹式菜单" />
 
     <Button
         android:id="@+id/btnSlideDeleteMenu"
         style="@style/style_main_item"
-        android:text="SlideDelete Menu" />
+        android:text="仿QQ侧滑删除" />
     <Button
         android:id="@+id/btnCustomToast"
         style="@style/style_main_item"
-        android:text="Custom Toast" />
+        android:text="自定义Toast" />
     <Button
         android:id="@+id/btnDownMenu"
         style="@style/style_main_item"
-        android:text="Down Menu" />
+        android:text="PopupWindow 下拉菜单" />
 
 </LinearLayout>

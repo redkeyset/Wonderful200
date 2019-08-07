@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when (v) {
-            btnTest -> toast("测试点击效果！")
             // 第1章
             btnWeiMenu -> startActivity(intentFor<WeiMenu01Activity>())
             btnAnnouncementDrawer -> startActivity(intentFor<AnnouncementDrawer02Activity>())

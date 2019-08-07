@@ -9,28 +9,28 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:text="第2章"
+        android:text="第2章 控件的使用"
         android:gravity="center"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/btnProgressBar"
         style="@style/style_main_item"
-        android:text="ProgressBar" />
+        android:text="ProgressBar 进度条" />
 
     <Button
         android:id="@+id/btnZFPlay"
         style="@style/style_main_item"
-        android:text="ZFPlayPassword" />
+        android:text="六位密码输入框" />
     <Button
         android:id="@+id/btnAZSort"
         style="@style/style_main_item"
-        android:text="AZSort" />
+        android:text="带字母检索的城市列表" />
 
     <Button
         android:id="@+id/btnImageFDScrollView"
         style="@style/style_main_item"
-        android:text="ImageFDScrollView" />
+        android:text="下拉顶部图片放大" />
 
     <View
         android:layout_width="1dp"
