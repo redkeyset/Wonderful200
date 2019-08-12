@@ -21,11 +21,12 @@ import com.ecs.androidwonderful200.menudialog.RainbowMenu09.RainbowMenu09Activit
 import com.ecs.androidwonderful200.menudialog.SatellistMenu04.SatellistMenu04Activity
 import com.ecs.androidwonderful200.menudialog.SlideDeleteMenu10.SlideDeleteMenu10Activity
 import com.ecs.androidwonderful200.menudialog.weimenu01.WeiMenu01Activity
+import com.ecs.wonderful200.calendars.CalendarsActivity
+import com.ecs.wonderful200.timedialog018.TimeDialogActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.wonderful01.*
 import kotlinx.android.synthetic.main.wonderful02.*
 import org.jetbrains.anko.intentFor
-import org.jetbrains.anko.toast
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -73,6 +74,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             btnZFPlay -> startActivity(intentFor<ZFPlay014Activity>())
             btnAZSort -> startActivity(intentFor<AZSort015Activity>())
             btnImageFDScrollView -> startActivity(intentFor<ImageFDScrollViewActivity>())
+            btnCalendars -> startActivity(intentFor<CalendarsActivity>())
+            btnTimeDialog -> startActivity(intentFor<TimeDialogActivity>())
         }
     }
 }

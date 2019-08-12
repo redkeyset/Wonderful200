@@ -32,6 +32,16 @@
         style="@style/style_main_item"
         android:text="下拉顶部图片放大" />
 
+    <Button
+        android:id="@+id/btnCalendars"
+        style="@style/style_main_item"
+        android:text="日历" />
+
+    <Button
+        android:id="@+id/btnTimeDialog"
+        style="@style/style_main_item"
+        android:text="时间选择器" />
+
     <View
         android:layout_width="1dp"
         android:layout_height="30dp"/>
