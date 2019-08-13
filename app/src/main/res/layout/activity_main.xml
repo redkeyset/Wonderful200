@@ -15,5 +15,7 @@
 
         <include layout="@layout/wonderful02" />
 
+        <include layout="@layout/wonderful03" />
+
     </LinearLayout>
 </ScrollView>
