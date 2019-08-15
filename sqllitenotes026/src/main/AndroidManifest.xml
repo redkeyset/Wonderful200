@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecs.wonderful200.sqllitenotes026" >
+
+    <!-- STORAGE 存储组 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name=".SqlliteNotesActivity" />
+        <activity android:name=".About"></activity>
+        <activity android:name=".AddActivity"></activity>
+        <activity android:name=".DataSearchActivity"></activity>
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".ShowNoteActivity"></activity>
+    </application>
+</manifest>

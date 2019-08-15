@@ -34,4 +34,6 @@ dependencies {
     implementation project(':calendars017')
     implementation project(':timedialog018')
     implementation project(':sharedpreferences024')
+    implementation project(':sdcardfileinfo025')
+    implementation project(':sqllitenotes026')
 }

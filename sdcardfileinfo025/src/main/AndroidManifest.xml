@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecs.wonderful200.sdcardfileinfo025">
+    <!-- STORAGE 存储组 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application>
+        <activity android:name=".SdCardFileActivity" />
+        <activity android:name=".MPermissionsActivity"></activity>
+    </application>
+
+</manifest>

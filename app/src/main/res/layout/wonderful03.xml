@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_sqllitenotes">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,6 +17,17 @@
         android:id="@+id/btnSharedPrefer"
         style="@style/style_main_item"
         android:text="SharedPreferences存储" />
+
+
+    <Button
+        android:id="@+id/btnSdCardFile"
+        style="@style/style_main_item"
+        android:text="SdCardFile 存储" />
+
+    <Button
+        android:id="@+id/btnSqlliteNotes"
+        style="@style/style_main_item"
+        android:text="SqlliteNotes 记事本" />
 
     <View
         android:layout_width="1dp"

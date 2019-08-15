@@ -22,7 +22,9 @@ import com.ecs.androidwonderful200.menudialog.SatellistMenu04.SatellistMenu04Act
 import com.ecs.androidwonderful200.menudialog.SlideDeleteMenu10.SlideDeleteMenu10Activity
 import com.ecs.androidwonderful200.menudialog.weimenu01.WeiMenu01Activity
 import com.ecs.wonderful200.calendars.CalendarsActivity
+import com.ecs.wonderful200.sdcardfileinfo025.SdCardFileActivity
 import com.ecs.wonderful200.sharedpreferences024.SharedPreferActivity
+import com.ecs.wonderful200.sqllitenotes026.SqlliteNotesActivity
 import com.ecs.wonderful200.timedialog018.TimeDialogActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.wonderful01.*
@@ -81,6 +83,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             //第3章
             btnSharedPrefer -> startActivity(intentFor<SharedPreferActivity>())
+            btnSdCardFile -> startActivity(intentFor<SdCardFileActivity>())
+            btnSqlliteNotes -> startActivity(intentFor<SqlliteNotesActivity>())
 
         }
     }
