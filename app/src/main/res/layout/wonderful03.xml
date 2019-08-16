@@ -29,6 +29,11 @@
         style="@style/style_main_item"
         android:text="SqlliteNotes 记事本" />
 
+    <Button
+        android:id="@+id/btnLocalPicture"
+        style="@style/style_main_item"
+        android:text="LocalPicture 查看本地图片" />
+
     <View
         android:layout_width="1dp"
         android:layout_height="30dp"/>

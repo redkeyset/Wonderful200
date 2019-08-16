@@ -36,4 +36,5 @@ dependencies {
     implementation project(':sharedpreferences024')
     implementation project(':sdcardfileinfo025')
     implementation project(':sqllitenotes026')
+    implementation project(':localpicture027')
 }

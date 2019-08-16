@@ -1,1 +1,1 @@
-include ':app', ':baselibrary', ':timedialog018', ':sharedpreferences024', ':sdcardfileinfo025', ':sqllitenotes026','calendars017'
+include ':app', ':baselibrary', ':timedialog018', ':sharedpreferences024', ':sdcardfileinfo025', ':sqllitenotes026', ':localpicture027','calendars017'

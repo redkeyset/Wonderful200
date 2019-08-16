@@ -33,7 +33,6 @@
         <activity android:name=".AndroidControls.ZFPlay014.ZFPlay014Activity" />
         <activity android:name=".AndroidControls.AZSort015.AZSort015Activity" />
         <activity android:name=".AndroidControls.ImageFDScrollView016.ImageFDScrollViewActivity" />
-        <activity android:name=".AndroidControls.Calendars017.Calendars017Activity"></activity>
     </application>
 
 </manifest>
