@@ -34,6 +34,11 @@
         style="@style/style_main_item"
         android:text="LocalPicture 查看本地图片" />
 
+    <Button
+        android:id="@+id/btnAsExcel"
+        style="@style/style_main_item"
+        android:text="家庭财务 Excel" />
+
     <View
         android:layout_width="1dp"
         android:layout_height="30dp"/>

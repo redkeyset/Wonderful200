@@ -21,6 +21,7 @@ import com.ecs.androidwonderful200.menudialog.RainbowMenu09.RainbowMenu09Activit
 import com.ecs.androidwonderful200.menudialog.SatellistMenu04.SatellistMenu04Activity
 import com.ecs.androidwonderful200.menudialog.SlideDeleteMenu10.SlideDeleteMenu10Activity
 import com.ecs.androidwonderful200.menudialog.weimenu01.WeiMenu01Activity
+import com.ecs.wonderful200.asexcel.AsExcelActivity
 import com.ecs.wonderful200.calendars.CalendarsActivity
 import com.ecs.wonderful200.localpicture027.LocalPictureActivity
 import com.ecs.wonderful200.sdcardfileinfo025.SdCardFileActivity
@@ -87,7 +88,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             btnSdCardFile -> startActivity(intentFor<SdCardFileActivity>())
             btnSqlliteNotes -> startActivity(intentFor<SqlliteNotesActivity>())
             btnLocalPicture -> startActivity(intentFor<LocalPictureActivity>())
-
+            btnAsExcel -> startActivity(intentFor<AsExcelActivity>())
         }
     }
 }

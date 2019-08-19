@@ -37,4 +37,5 @@ dependencies {
     implementation project(':sdcardfileinfo025')
     implementation project(':sqllitenotes026')
     implementation project(':localpicture027')
+    implementation project(':asexcel')
 }

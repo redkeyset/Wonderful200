@@ -48,7 +48,7 @@ class TimeDialogActivity : AppCompatActivity(), View.OnClickListener {
         when (id) {
             ONE -> {
                 //时间选择弹窗回调函数
-                val timeListener = TimePickerDialog.OnTimeSetListener { timerPicker, hourOfDay, minute ->
+                val timeListener = TimePickerDialog.OnTimeSetListener { _, hourOfDay, minute ->
                     //初始化显示设置时间控件
                     val textV = findViewById<View>(R.id.textV) as TextView
                     //小时
@@ -80,7 +80,7 @@ class TimeDialogActivity : AppCompatActivity(), View.OnClickListener {
             }
             TWO -> {
                 //时间选择弹窗
-                val timeListener1 = TimePickerDialog.OnTimeSetListener { timerPicker, hourOfDay, minute ->
+                val timeListener1 = TimePickerDialog.OnTimeSetListener { _, hourOfDay, minute ->
                     //初始化显示设置时间控件
                     val textV1 = findViewById<View>(R.id.textV1) as TextView
                     //小时
@@ -125,7 +125,8 @@ class TimeDialogActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         override fun onClick(view: View) {
-            showDialog(dialogId)
+//            showDialog(dialogId)
+//            showDialog()
         }
     }
 

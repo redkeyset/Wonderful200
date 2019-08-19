@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Environment
 import android.text.TextUtils
 import android.view.View
+import com.ecs.wonderful200.baselibrary.MPermissionsActivity
 import kotlinx.android.synthetic.main.activity_sd_card_file.*
 import org.jetbrains.anko.toast
 import java.io.File
@@ -72,7 +73,7 @@ class SdCardFileActivity : MPermissionsActivity(), View.OnClickListener {
                             .setTitle("读取文档信息")
                             .setMessage("文档内容：$nr")
                             .setCancelable(false)
-                            .setPositiveButton("知道了!") { dialog, which ->
+                            .setPositiveButton("知道了!") { dialog, _ ->
                                 dialog.cancel()
                             }
                             .create().show()
